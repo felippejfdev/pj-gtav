@@ -1,0 +1,222 @@
+@charset"UTF-8";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.conteiner-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 90px;
+}
+
+
+.img-1 {
+    width: 150px;
+    align-items: center;
+    z-index: 1;
+
+
+}
+
+.conteiner-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+
+.img-2 {
+    width: 400px;
+    height: 300px;
+}
+
+.conteiner-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    gap: 20px;
+    background-color: black;
+}
+
+h1,
+h2 {
+    color: white;
+    font-size: 28px;
+    margin-left: -150px;
+
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    margin: 25px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.conteiner-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 100px;
+    filter: blur(15px);
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 2s;
+}
+
+.conteiner-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.conteiner-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.img-4 {
+    width: 350px;
+
+}
+
+h3 {
+    color: white;
+    font-size: 28px;
+}
+
+.conteiner-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.conteiner-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+
+.conteiner-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.conteiner-9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.conteiner-10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.img-5 {
+    width: 120px;
+    margin-top: -170px;
+    border-radius: 10px;
+    border: 3px solid #efb810;
+}
+
+.logo-play {
+    width: 30px;
+   
+}
+
+.conteiner-11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   
+ 
+    
+}
+
+.xbox{
+    width: 25px;
+}
+
+.pc{
+    width: 60px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+   
+}
+
+.p-rodape{
+    font-size: 23px;
+}
+
