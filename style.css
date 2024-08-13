@@ -38,6 +38,18 @@ body {
     align-items: center;
     border: 2px solid black;
     gap: 17px;
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 3s;
+    transform: translate(-100%);
+
+}
+
+.show {
+    opacity: 1;
+    transition: all 3s;
+    filter: blur(0);
+    transform: translate(0);
 
 }
 
@@ -49,7 +61,8 @@ body {
 
 
 h1,
-h2,h3 {
+h2,
+h3 {
     color: white;
     font-size: 25px;
     text-align: center;
@@ -75,7 +88,7 @@ button {
     font-weight: bold;
 }
 
-button:hover{
+button:hover {
     background-color: #efb810;
 }
 
@@ -84,7 +97,7 @@ button:hover{
 
 
 .img-4 {
-  width: 100%;
+    width: 100%;
     border-radius: 6px;
 
 }
@@ -104,16 +117,7 @@ button:hover{
 
 }
 
-.conteiner-11 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
 
-
-
-}
 
 .xbox {
     width: 25px;
